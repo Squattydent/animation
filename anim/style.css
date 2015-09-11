@@ -20,6 +20,12 @@
 	height: 335px;
 	margin: 3px;
 }
+.tri {
+	margin: 0px;
+	border-right: 130px solid transparent;
+	border-left: 130px solid transparent;
+	border-bottom: 140px solid #000;
+}
 
 
 .square {
@@ -49,7 +55,6 @@
 	margin: 10px;
 	margin-bottom: 120px;
 	display: inline-block;
-	font-size: 30px;
 	height: 20%;
 	margin-top: 10px;
 }
