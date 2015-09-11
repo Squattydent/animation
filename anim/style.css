@@ -12,6 +12,8 @@
 	background-color: #000;
 	height: 350px;
 	width: auto;
+	display: inline-block;
+
 }
 .triangles {
 	background-color: green;
@@ -86,8 +88,17 @@
 	height: 130px;
 	border-radius: 120%;
 }
-
-
-
+.foot {
+	height: 360px;
+	text-align: center;
+}
+.span, .span2, .span3 {
+	background-color: ;
+	margin: 40px;
+	height: 170px;
+	width: 200px;
+	border-radius: 600%;
+	display: inline-block;
+}
 
 
