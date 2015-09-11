@@ -10,32 +10,64 @@
 /* shapes */
 .shapes {
 	background-color: #000;
-	height: 180px;
+	height: 350px;
 	width: auto;
-}
-.shapes div {
-	margin: 3px;
-	height: 100px;
-
 }
 .triangles {
 	background-color: green;
 	display: inline-block;
-	width: 150px;
+	width: 250px;
+	height: 335px;
+	margin: 3px;
 }
+
+
 .square {
+	margin: 3px;
 	background-color: blue;
 	display: inline-block;
-	width: 150px;
+	width: 250px;
+	height: 335px;
+	text-align: center;
+}
+
+.thesquare {
+	background-color: #fff;
+	margin: 20px;
+	width: 80%;
+	height: 30%;
+	display: inline-block;
+}
+.hsquare {
+	margin: 10px;
+	display: inline-block;
+	width: 90%;
+	height: 20%;
+	display: inline-block;
+}
+.psquare {
+	margin: 10px;
+	margin-bottom: 120px;
+	display: inline-block;
+	font-size: 30px;
+	height: 20%;
+	margin-top: 10px;
 }
 .rect {
 	background-color: yellow;
 	display: inline-block;
-	width: 150px;
+	width: 250px;
+	margin: 3px;
+	height: 320px;
 }
 .circle {
 	background-color: red;
 	display: inline-block;
-	width: 150px;
+	width: 250px;
+	height: 320px;
+	margin: 3px;
 }
+
+
+
 
