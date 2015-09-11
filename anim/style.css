@@ -10,24 +10,32 @@
 /* shapes */
 .shapes {
 	background-color: #000;
-	height: 150px;
+	height: 180px;
 	width: auto;
 }
 .shapes div {
 	margin: 3px;
-	height: 40px;
+	height: 100px;
+
 }
 .triangles {
 	background-color: green;
-
+	display: inline-block;
+	width: 150px;
 }
 .square {
 	background-color: blue;
+	display: inline-block;
+	width: 150px;
 }
 .rect {
 	background-color: yellow;
+	display: inline-block;
+	width: 150px;
 }
 .circle {
 	background-color: red;
+	display: inline-block;
+	width: 150px;
 }
 
