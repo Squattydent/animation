@@ -1,3 +1,8 @@
 .container {
-	background-color: gray;
+	background-color: grey;
+	height: auto;
+	width: auto;
+}
+.title h2 {
+	background-color: red;
 }
