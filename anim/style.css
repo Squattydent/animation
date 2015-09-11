@@ -13,8 +13,13 @@
 	height: 150px;
 	width: auto;
 }
-.tringles {
+.shapes div {
+	margin: 3px;
+	height: 40px;
+}
+.triangles {
 	background-color: green;
+
 }
 .square {
 	background-color: blue;
