@@ -1,0 +1,154 @@
+/*
+    typography
+=============================*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i {
+    font-family: 'Raleway', cursive;
+    color: #000;
+    text-align: center;
+}
+html,
+body {
+    background-color: #f2f2f2;
+}
+
+/*
+    Navigation
+==================
+*/
+
+nav {
+    position: fixed;
+    z-index: 2;
+}
+.top-bar {
+    height: 80px;
+}
+
+/*
+    Logo
+==================
+*/
+
+.no img {
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+#right {
+    margin-left: 750px;
+    margin-right: 300px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.zero {
+    position: absolute;
+}
+
+/*
+    Buttons
+==================
+*/
+
+.menu li a {
+    margin-right: 15px;
+    color: #ff0126;
+    border: 2px solid #ff0126;
+    border-radius: 10px;
+}
+.menu li a:hover {
+    background-color: #f40524;
+    color: #fff;
+    border-radius: 10px;
+}
+.menu .is-active a {
+    background-color: #f40524;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/*
+    Banner
+==================
+*/
+
+.img {
+    background-image: url(../img/sample.jpg);
+    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+    background-color: #f2f2f2;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+    position: relative;
+    padding: 0;
+}
+.img:before {
+    content: "";
+    background-color: rgba(26, 30, 35, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.col {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    padding: 0 15px;
+}
+.col h1 {
+    margin-top: 180px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.col h1 span {
+    color: #ff0126;
+    text-transform: uppercase;
+}
+
+/* Next Event Button */
+
+.btn {
+    border-radius: 5px;
+    background-color: #f40524;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: visible;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    text-transform: uppercase;
+}
+.btn:hover {
+    border-radius: 5px;
+    font-size: 18px;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: #fff;
+    background-color: #ff0126;
+    transform: scale(1.1);
+}
+.btn a {
+    color: #fff;
+}
