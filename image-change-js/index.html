@@ -11,10 +11,40 @@
 
 <body>
 
-    <p onclick="changeimage()">click here</p>
+    <!-- crazy code -->
 
-    <img id="myImage" src="moringa-white.png">
+    <div id="wrapper">
 
+        <div class="site-title">
+            <div class="container">
+                <h1>On/Off Switch</h1>
+            </div>
+        </div>
+        <!-- /.site-title -->
+
+        <div id="main">
+            <div class="container">
+
+                <div class="settings">
+
+                    <div class="row">
+                        <div class="img">
+                            <img id="myImage" src="moringa-white.png">
+                        </div>
+                        <div class="switch">
+                            <input onclick="changeimage()" id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="cmn-toggle-1"></label>
+                        </div>
+                    </div>
+                    <!-- /row -->
+                </div>
+
+            </div>
+        </div>
+        <!-- #main -->
+
+    </div>
+    <!-- /#wrapper -->
 
     <script src="script.js"></script>
 </body>
