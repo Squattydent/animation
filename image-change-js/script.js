@@ -9,24 +9,15 @@ function changeimage() {
 
 // from jsfiddle
 
-//function cubeswitch() {
-//    var image = document.getElementById("light-bulb2");
-//    if (image.)
-//        if ($('.cube-switch').hasClass('active')) {
-//            $('.cube-switch').removeClass('active');
-//            $('#light-bulb2').css({
-//                'opacity': '0'
-//            });
-//        } else {
-//            $('.cube-switch').addClass('active');
-//            $('#light-bulb2').css({
-//                'opacity': '1'
-//            });
-//        }
-//}
-
-$('cmn-toggle').click(function () {
-
-    $("#light-bulb2").toggleClass('on');
-
+$('#light-bulb2').click(function cubeswitch() {
+    if ($('#light-bulb2').hasClass('off')) {
+        $('#light-bulb2').css({
+            'opacity': '0'
+        });
+    } else {
+        $('.cube-switch').addClass('active');
+        $('#light-bulb2').css({
+            'opacity': '1'
+        });
+    }
 });
