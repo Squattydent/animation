@@ -5,8 +5,8 @@ body {
     font-family: "Roboto Slab", serif;
 }
 #myImage {
-    width: 180px;
-    height: 180px;
+    width: 60px;
+    height: 100px;
 }
 
 /* ============================================================
@@ -58,10 +58,9 @@ body {
 ============================================================ */
 
 input.cmn-toggle-round + label {
-    padding: 2px;
     width: 120px;
     height: 60px;
-    background-color: #dddddd;
+    background-color: #000000;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
@@ -79,7 +78,8 @@ input.cmn-toggle-round + label:after {
 }
 input.cmn-toggle-round + label:before {
     right: 1px;
-    background-color: #f1f1f1;
+    /*    background-color: #f1f1f1;*/
+    background-color: #000000;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
@@ -107,8 +107,40 @@ input.cmn-toggle-round + label:after {
     transition: margin 0.4s;
 }
 input.cmn-toggle-round:checked + label:before {
-    background-color: #8ce196;
+    background-color: #ffff00;
 }
 input.cmn-toggle-round:checked + label:after {
     margin-left: 60px;
+}
+
+/* from Js fiddle */
+
+
+/* SWITCH Active State */
+
+#light-bulb2 {
+    width: 150px;
+    height: 150px;
+    background: url(bulb.png) no-repeat 0 0;
+}
+#light-bulb2 {
+    width: 150px;
+    height: 150px;
+    background: url(bulb.png) no-repeat 0 0;
+}
+.off {
+    opacity: 0;
+}
+.on {
+    opacity: 1;
+}
+#light-bulb {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 40%;
+    left: 40%;
+    background: url(https://lh4.googleusercontent.com/-katLGTSCm2Q/UJC0_N7XCrI/AAAAAAAABq0/6GxNfNW-Ra4/s300/lightbulb.png) no-repeat -150px 0;
+    cursor: move;
+    z-index: 800;
 }
