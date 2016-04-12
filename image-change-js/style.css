@@ -4,10 +4,6 @@ body {
     color: #fff;
     font-family: "Roboto Slab", serif;
 }
-#myImage {
-    width: 60px;
-    height: 100px;
-}
 
 /* ============================================================
   COMMON
@@ -107,7 +103,7 @@ input.cmn-toggle-round + label:after {
     transition: margin 0.4s;
 }
 input.cmn-toggle-round:checked + label:before {
-    background-color: #ffff00;
+    background-color: rgba(248, 240, 158, 0.85);
 }
 input.cmn-toggle-round:checked + label:after {
     margin-left: 60px;
@@ -118,11 +114,6 @@ input.cmn-toggle-round:checked + label:after {
 
 /* SWITCH Active State */
 
-#light-bulb2 {
-    width: 150px;
-    height: 150px;
-    background: url(bulb.png) no-repeat 0 0;
-}
 #light-bulb2 {
     width: 150px;
     height: 150px;
@@ -139,8 +130,8 @@ input.cmn-toggle-round:checked + label:after {
     width: 150px;
     height: 150px;
     top: 40%;
-    left: 40%;
-    background: url(https://lh4.googleusercontent.com/-katLGTSCm2Q/UJC0_N7XCrI/AAAAAAAABq0/6GxNfNW-Ra4/s300/lightbulb.png) no-repeat -150px 0;
-    cursor: move;
+    left: 45%;
+    background: url(bulb.png) no-repeat -150px 0;
+    cursor: pointer;
     z-index: 800;
 }
